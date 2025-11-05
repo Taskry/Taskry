@@ -1,7 +1,7 @@
 function AboutPage() {
   return (
     <div>
-      <h2>About Us</h2>
+      <h2>칸반보드</h2>
     </div>
   );
 }

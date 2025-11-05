@@ -1,10 +1,12 @@
 .header {
-  background-color: #6c757d;
-  padding: 20px;
-  color: white;
+  background-color: white;
+  padding: 10px 10px 10px 20px;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 10px;
+  border: 1px solid #87BAC3
 }
 
 .logo {
@@ -14,5 +16,5 @@
 
 .header h1 {
   margin: 0;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
