@@ -1,7 +1,8 @@
 function AboutPage() {
   return (
     <div>
-      <h2>칸반보드</h2>
+      <h2>Primary Color</h2>
+      <h2>Primary Opacity</h2>
     </div>
   );
 }
