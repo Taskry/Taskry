@@ -1,6 +1,3 @@
-// import Button from '../components/Button/Button'; // Button 컴포넌트 재사용
-
-const name = ["asd",]
 function HomePage() {
   return (
     <div>
