@@ -1,4 +1,4 @@
-## 🚀Taskry
+## 🚀 Taskry
 Project of "DAN_DA_DAN"
 
 칸반보드 기반 프로젝트 관리 협업 환경을 제공하는 웹 기반 협업툴입니다.
@@ -9,20 +9,14 @@ Project of "DAN_DA_DAN"
 - **협업 환경 구축**: 사용자 작업 현황이 즉시 반영되도록 하여 원활한 협업이 가능할 수 있도록 설계합니다.
 - **유연하고 확장 가능한 일정**: 일정 추가, 삭제, 수정 및 팀원, 중요도 기반 필터링, 검색 기능을 통해서 원하는 정보를 빠르고 유연하게 제공합니다.
 
-## 🛠️기술 스택
-- 기술 스텍
-    - React + JavaScript: 핵심 프론트엔드 라이브 언어
-    - Vite: 빌드 도구
-    - npm: 패키지 관리 도구
-    - React Context: 상태 관리 도구
-    - ESLint + Prettier: 코드 스타일 및 포맷팅 도구
-    - TailwindCSS: 빠르고 일관된 UI 스타일링에 사용
-    - firebase: google OAuth, 데이터베이스
-- 사용 도구
-    - VS Code: 통합 개발 환경
-    - Git, GitHub: 버전 관리
-    - Figma, Notion, Discord: 협업 및 문서화
-    - Chrome DevTools: 기타 테스트/디버깅
+## 🛠️ 기술 스택
+- React + JavaScript: 핵심 프론트엔드 라이브 언어
+- Vite: 빌드 도구
+- npm: 패키지 관리 도구
+- React Context: 상태 관리 도구
+- ESLint + Prettier: 코드 스타일 및 포맷팅 도구
+- TailwindCSS: 빠르고 일관된 UI 스타일링에 사용
+- firebase: google OAuth, 데이터베이스
 ## 📦 설치 및 실행 방법
 ### 1. 저장소 복제
 ```
