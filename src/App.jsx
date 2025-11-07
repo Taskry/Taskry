@@ -12,16 +12,16 @@ function App() {
       <Router>
         <Header /> {/* 모든 페이지에 공통적으로 나타날 헤더 컴포넌트 */}
         <nav className="p-2">
-          <Button style={{ marginRight: '10px' }}>
+          <Button className="bg-main-200 text-white font-semibold">
             <Link to="/">프로젝트 관리</Link>
           </Button>
-          <Button style={{ marginRight: '10px' }}>
+          <Button className="bg-main-200 text-white font-semibold">
             <Link to="/board">칸반보드</Link>
           </Button>
-          <Button style={{ marginRight: '10px' }}>
+          <Button className="bg-main-200 text-white font-semibold">
             <Link to="/icon">Icon</Link>
           </Button>
-          <Button style={{ marginRight: '10px' }}>
+          <Button className="bg-main-200 text-white font-semibold">
             <Link to="/color">색상표</Link>
           </Button>
         </nav>
