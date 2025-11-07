@@ -41,6 +41,27 @@ function ColorPage() {
     ]
   };
 
+  const primaryBorderColor = {
+    color1: [
+      'border-main-100',
+      'border-main-200',
+      'border-main-300',
+      'border-main-400',
+      'border-main-500',
+      'border-main-600',
+      'border-main-700'
+    ],
+    Color2: [
+      'border-gray-100',
+      'border-gray-200',
+      'border-gray-300',
+      'border-gray-400',
+      'border-gray-500',
+      'border-gray-600',
+      'border-gray-700'
+    ]
+  };
+
   const bgColorOpacity = {
     colorOpacity: [
       'bg-main-200',
@@ -59,6 +80,26 @@ function ColorPage() {
       'bg-blue-100/40'
     ],
     colorOpacity3: ['bg-green-100', 'bg-green-100/80', 'bg-green-100/40']
+  };
+
+  const borderColorOpacity = {
+    colorOpacity: [
+      'border-main-200',
+      'border-main-200/80',
+      'border-main-200/40',
+      'border-yellow-100',
+      'border-yellow-100/80',
+      'border-yellow-100/40'
+    ],
+    colorOpacity2: [
+      'border-red-100',
+      'border-red-100/80',
+      'border-red-100/40',
+      'border-blue-100',
+      'border-blue-100/80',
+      'border-blue-100/40'
+    ],
+    colorOpacity3: ['border-green-100', 'border-green-100/80', 'border-green-100/40']
   };
 
   const textColorOpacity = {
@@ -108,6 +149,31 @@ function ColorPage() {
       </div>
 
       <div>
+        <div className="mb-3 text-xl font-semibold">primaryBorderColor</div>
+        {Object.values(primaryBorderColor).map((category, index) => (
+          <div key={index} className="flex gap-2 mb-4">
+            {category.map((color) => (
+              <div
+                key={color}
+                className={`
+                  ${color}
+                  w-40
+                  h-20
+                  border-2
+                  rounded-lg
+                  flex 
+                  items-center 
+                  justify-center
+                  font-semibold`}
+              >
+                {`${color}`}
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+
+      <div>
         <div className="mb-3 text-xl font-semibold">primaryTextColor</div>
         {Object.values(primaryTextColor).map((category, index) => (
           <div key={index} className="flex gap-2 mb-4">
@@ -142,6 +208,31 @@ function ColorPage() {
                   ${color}
                   w-40
                   h-20
+                  rounded-lg
+                  flex 
+                  items-center 
+                  justify-center
+                  font-semibold`}
+              >
+                {`${color}`}
+              </div>
+            ))}
+          </div>
+        ))}
+      </div>
+
+      <div>
+        <div className="mb-3 text-xl font-semibold">borderColorOpacity</div>
+        {Object.values(borderColorOpacity).map((category, index) => (
+          <div key={index} className="flex gap-2 mb-4">
+            {category.map((color) => (
+              <div
+                key={color}
+                className={`
+                  ${color}
+                  w-40
+                  h-20
+                  border-2
                   rounded-lg
                   flex 
                   items-center 
